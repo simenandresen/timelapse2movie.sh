@@ -40,7 +40,7 @@ elif [ $number_of_files -lt 1000000 ]; then
 elif [ $number_of_files -lt 10000000 ]; then
 	n_digits=7
 else 
-	echo "Two many files error"
+	echo "Too many files error"
 fi
 
 # MAKE COPIES WITH ZEROPADDED NAMES
